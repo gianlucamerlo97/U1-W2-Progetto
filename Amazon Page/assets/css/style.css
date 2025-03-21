@@ -1,1 +1,71 @@
 /* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 100%;
+  font-weight: bold;
+}
+p {
+  padding: 2em;
+}
+.image {
+  width: 100%;
+  display: block;
+}
+h3 {
+  padding: 1.5em;
+}
+.cards {
+  border-radius: 20px;
+  width: 22%;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+}
+footer nav {
+  padding: 1em;
+}
+
+.background2 {
+  background-image: url(../images/bg-image.png);
+  height: 10em;
+
+  max-width: 100%;
+}
+li {
+  display: inline-block;
+  margin: 1%;
+}
+
+.text center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-dark {
+  color: #eaeded;
+
+  background-color: #222f3f;
+}
+
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+}
+
+h2 {
+  text-align: center;
+  padding: 2em;
+  color: #eaeded;
+  font-weight: bold;
+}
+
+main h5 {
+  text-align: center;
+  padding: 1, 5em;
+  color: #eaeded;
+  font-weight: bold;
+}
+h6 {
+  padding: 1em;
+}
